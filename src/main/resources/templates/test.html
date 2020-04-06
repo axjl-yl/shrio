@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns:shrio="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>测试thy的使用</title>
+</head>
+<body>
+<h3 th:text="${name}"></h3>
+<hr/>
+<div shrio:hasPermission="user:add">
+用户添加：<a href="add">用户添加</a><br>
+</div>
+<div shrio:hasPermission="user:update">
+用户更新：<a href="update">用户更新</a><br>
+</div>
+<a href="tologin">登陆</a>
+</body>
+</html>

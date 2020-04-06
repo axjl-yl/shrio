@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: shrio
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      url: jdbc:mysql://127.0.0.1:3306/bb?useUnicode=true&characterEncoding=utf8&useSSL=false
+      password: 980823
+mybatis:
+  mapper-locations: classpath:Mapper/*Mapper.xml
